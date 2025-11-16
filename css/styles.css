@@ -8036,7 +8036,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: green !important;
 }
 
 .text-secondary {
@@ -11127,7 +11127,7 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ffc800;
+  background-color: green;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -11285,7 +11285,7 @@ section#contact form#contactForm p.help-block {
   margin: 0;
 }
 section#contact form#contactForm .form-control:focus {
-  border-color: #ffc800;
+  border-color: green;
   box-shadow: none;
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
@@ -11315,6 +11315,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+
+/* Minha tentativa personalização na area do contato, precisei da ia para fazer a cor neon*/
+
 /* Muda a cor ao passar o mouse nos itens do menu */
 #mainNav .nav-link:hover {
     color: #00ff00 !important; /* verde */
@@ -11323,4 +11326,61 @@ section#contact form#contactForm :-ms-input-placeholder {
 /* Opcional: mantém verde também quando estiver ativo (clicado) */
 #mainNav .nav-link.active {
     color: #00ff00 !important;
+}
+
+/* Fundo sutil estilo Ben 10 */
+.ben10-contact {
+    background: #000;
+    border-top: 3px solid #00ff66;
+    border-bottom: 3px solid #00ff66;
+    padding: 60px 0;
+    box-shadow: 0 0 20px #00ff66;
+}
+
+/* Título Verde Neon */
+.ben10-title {
+    color: #00ff66;
+    text-shadow: 0 0 10px #00ff66, 0 0 20px #00ff66;
+}
+
+/* Subtítulo */
+.ben10-subtitle {
+    color: #c8ffd9;
+}
+
+/* Inputs estilo Omnitrix */
+.ben10-input {
+    background: #0d0d0d;
+    border: 2px solid #00ff66;
+    color: #00ff99;
+    box-shadow: 0 0 10px #00ff66 inset;
+    transition: 0.3s;
+}
+
+.ben10-input::placeholder {
+    color: #66ffb2;
+}
+
+.ben10-input:focus {
+    background: #000;
+    border-color: #00ffcc;
+    box-shadow: 0 0 15px #00ffcc, 0 0 25px #00ffcc inset;
+    color: #aaffee;
+}
+
+/* Botão Omnitrix */
+.ben10-button {
+    background: #00ff66 !important;
+    border: none !important;
+    color: #000 !important;
+    font-weight: bold;
+    text-shadow: 0 0 5px #003311;
+    box-shadow: 0 0 15px #00ff66, 0 0 30px #00ff66;
+    transition: 0.3s;
+}
+
+.ben10-button:hover {
+    background: #00ffaa !important;
+    box-shadow: 0 0 20px #00ffaa, 0 0 40px #00ffaa;
+    transform: scale(1.05);
 }
