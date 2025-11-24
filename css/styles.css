@@ -11384,3 +11384,54 @@ section#contact form#contactForm :-ms-input-placeholder {
     box-shadow: 0 0 20px #00ffaa, 0 0 40px #00ffaa;
     transform: scale(1.05);
 }
+
+/* index2 */
+
+
+    /* Fundo geral das modais */
+    .modal-content {
+        background: #0d0d0d;
+        border: 2px solid #00ff55;
+        box-shadow: 0 0 20px #00ff5566;
+        border-radius: 8px;
+    }
+
+    /* Título com brilho verde */
+    .modal-body h2 {
+        color: #00ff55;
+        text-shadow: 0 0 10px #00ff55aa;
+    }
+
+    /* Texto branco suave */
+    .modal-body p {
+        color: #e6ffe6;
+    }
+
+    /* Botão verde */
+    .btn-primary {
+        background-color: #00c744;
+        border-color: #00c744;
+        box-shadow: 0 0 10px #00ff5577;
+        transition: 0.3s;
+    }
+
+    .btn-primary:hover {
+        background-color: #00ff55;
+        border-color: #00ff55;
+        box-shadow: 0 0 15px #00ff55;
+        transform: scale(1.05);
+    }
+
+    /* Ícone de fechar */
+    .close-modal img {
+        filter: brightness(0) saturate(100%) invert(76%) sepia(97%) saturate(420%) hue-rotate(86deg) brightness(115%);
+    }
+
+    /* Efeito verde nas imagens da modal */
+    .modal-body img {
+        border: 2px solid #00ff55;
+        border-radius: 8px;
+        box-shadow: 0 0 15px #00ff5588;
+    }
+
+
