@@ -8056,7 +8056,7 @@ textarea.form-control-lg {
 
 .text-warning {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+  color: green
 }
 
 .text-danger {
@@ -11435,3 +11435,37 @@ section#contact form#contactForm :-ms-input-placeholder {
     }
 
 
+/* CSS para o Efeito Verde Neon (Refinado) e Borda Fina */
+
+/* Define a cor verde neon e a borda mais fina */
+.border-neon {
+    border-color: #39FF14 !important; /* Cor Verde Neon brilhante */
+    border-width: 2px !important; /* Borda mais fina */
+    box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14; /* Brilho neon na borda */
+}
+
+/* Efeito de Levantamento (Hover) */
+.card-hover-lift {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: #212529 !important; /* Fundo escuro para os cards para destacar o neon */
+    color: #f8f9fa !important; /* Texto claro nos cards */
+}
+
+.card-hover-lift:hover {
+    transform: translateY(-5px); /* Move o card 5px para cima */
+    box-shadow: 0 0 15px #39FF14, 0 0 30px #39FF14, 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra mais destacada e brilho neon no hover */
+}
+
+/* Efeito Neon para Títulos */
+.neon-text-green {
+    color: #39FF14 !important; /* Cor principal do texto neon */
+    text-shadow: 0 0 5px #39FF14, 0 0 10px #39FF14, 0 0 20px #39FF14; /* Brilho neon */
+}
+
+/* Ajustes para o corpo do card no hover (para garantir que o texto seja legível) */
+.card-hover-lift .card-body .card-title {
+    color: #39FF14 !important; /* Título do card sempre neon */
+}
+.card-hover-lift .card-body .card-text {
+    color: #f8f9fa !important; /* Texto do corpo sempre claro */
+}
